@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "email": "demo@lindroid.co.zw",
+      "password": "password123",
+      "fullName": "Demo Librarian"
+    },
+    {
+      "id": "7AmhGyGIxPU",
+      "email": "aaronmabasa2002@gmail.com",
+      "password": "@tafco2002",
+      "fullName": "Aaron Mabasa"
+    },
+    {
+      "id": "VDAYWWqV8dQ",
+      "email": "tafadzwamabasa22@gmail.com",
+      "password": "@tafco2002",
+      "fullName": "Tafadzwa Mabasa"
+    }
+  ],
+  "books": [
+    {
+      "id": "1",
+      "title": "Nervous Conditions",
+      "author": "Tsitsi Dangarembga",
+      "isbn": "978-0954702335",
+      "genre": "Fiction",
+      "publishedYear": 1988,
+      "quantity": 4,
+      "status": "available",
+      "description": "A coming-of-age story set in colonial Rhodesia.",
+      "createdAt": "2026-01-15T10:00:00.000Z",
+      "updatedAt": "2026-01-15T10:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "title": "The House of Hunger",
+      "author": "Dambudzo Marechera",
+      "isbn": "978-0435905485",
+      "genre": "Short Stories",
+      "publishedYear": 1978,
+      "quantity": 2,
+      "status": "borrowed",
+      "description": "A landmark collection of short fiction from Harare.",
+      "createdAt": "2026-01-15T10:00:00.000Z",
+      "updatedAt": "2026-01-15T10:00:00.000Z"
+    },
+    {
+      "id": "3",
+      "title": "Dew in the Morning",
+      "author": "Charles Mungoshi",
+      "isbn": "978-1779221984",
+      "genre": "Fiction",
+      "publishedYear": 1982,
+      "quantity": 3,
+      "status": "available",
+      "description": "Rural Zimbabwean life through the eyes of a young boy.",
+      "createdAt": "2026-01-15T10:00:00.000Z",
+      "updatedAt": "2026-01-15T10:00:00.000Z"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
